@@ -1,0 +1,13 @@
+image:
+  name: "tgcslearningtech/grade-nodejs"
+  entrypoint: [""]
+
+stages:
+  - test
+
+MochaTests:
+  stage: test
+  script:
+    - npm install
+    - npm test
+  timeout: "600"

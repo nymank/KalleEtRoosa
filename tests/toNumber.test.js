@@ -2,7 +2,6 @@ import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 
 const { expect } = require('chai');
-const chai = require('chai');
 
 import toNumber from '../src/toNumber.js';
 
@@ -17,9 +16,9 @@ describe('toNumber test', function () {
         expect(result).to.be.a("number");
         expect(result).to.be.NaN;
     });
-        it('should return the maximum numeric value representable in JavaScript.', function () {
-            const result = toNumber(Number.MAX_VALUE);
-            //expect(result).to.be.a("number");
-            expect(result).to.equal(1.7976931348623157e+308);
-        });
+    it('should return the maximum numeric value representable in JavaScript.', function () {
+        const result = toNumber(Number.MAX_VALUE);
+        //expect(result).to.be.a("number");
+        expect(result).to.equal(1.7976931348623157e+308);
+    });
 });
