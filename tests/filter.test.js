@@ -8,7 +8,12 @@ import filter from '../src/filter.js';
 
 
 describe('filter test', function () {
-    it("s", function() {
-
+    it("returning an array of all elements where active is true", function() {
+        const users = [
+            { 'user': 'barney', 'active': true },
+            { 'user': 'fred',   'active': false },
+          ]
+        const result = filter(users, ({ active }) => active)
+        expect(result).to.deep.equal([ { user: 'barney', active: true } ])
     });
 });
