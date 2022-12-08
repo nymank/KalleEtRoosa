@@ -20,7 +20,7 @@ describe('Eq test', function () {
         expect(eq('a', 'a')).to.be.true;
     });
     it("should return false for 'a' and Object('a')", function() {
-        expect(eq('a', Object('a'))).to.be.false("eq('a', Object('a')) => false");
+        expect(eq('a', Object('a'))).to.be.false;
     });
     it("should return true for Nan and Nan", function() {
         expect(eq(NaN, NaN)).to.be.true;
