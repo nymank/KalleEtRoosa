@@ -5,3 +5,4 @@ Repository for hosting unit tests in Assignment part 2.
 ## Folder stucture
 tests/ contains our test suites.
 docs/ folder contains documentation, like testing plan (from assignment part 1) and test report.
+src/ has the code files that are tested.
