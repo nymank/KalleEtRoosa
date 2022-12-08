@@ -3,11 +3,11 @@
 Repository for hosting unit tests in Assignment part 2. Tests are made with Mocha and Chai.
 
 ## Running tests
-After cloning repository, install modules with
-    npm install
+After cloning repository, install modules with  
+    npm install  
 
-To run all tests, type
-    npm test
+To run all tests, type  
+    npm test  
 
 
 ## Folder stucture
