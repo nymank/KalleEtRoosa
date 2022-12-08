@@ -3,8 +3,8 @@
 Repository for hosting unit tests in Assignment part 2.
 
 ## Folder stucture
-|
-|
-|__tests/ contains our test suites.
-|__docs/ folder contains documentation, like testing plan (from assignment part 1) and test report.
-|__src/ has the utility library that is tested.
+|  
+|  
+|__tests/ contains our test suites.  
+|__docs/ folder contains documentation, like testing plan (from assignment part 1) and test report.  
+|__src/ has the utility library that is tested.  
