@@ -8,10 +8,10 @@ import isArrayLike from '../src/isArrayLike.js';
 
 
 describe('isArrayLike test', function () {
-    it("should return true for [1, 2, 3]", function() {
+    it("should return true for Array", function() {
         expect(isArrayLike([1, 2, 3])).to.be.true;
     });
-    it("should return true for 'abc'", function() {
+    it("should return true for String", function() {
         expect(isArrayLike("abc")).to.be.true;
     });
     it("should return false for Function", function() {
