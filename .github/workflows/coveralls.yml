@@ -16,9 +16,10 @@ jobs:
       with:
         node-version: 14.x
 
-    - name: npm install, make test-coverage
+    - name: npm install, run tests
       run: |
         npm install
+        npm run testlcov
 
     - name: Coveralls
       uses: coverallsapp/github-action@master
