@@ -16,10 +16,9 @@ jobs:
       with:
         node-version: 14.x
 
-    - name: coverage
+    - name: npm install, make test-coverage
       run: |
         npm install
-        npm run coverage
 
     - name: Coveralls
       uses: coverallsapp/github-action@master
