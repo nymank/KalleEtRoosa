@@ -4,7 +4,7 @@ import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 //
 const { expect } = require('chai');
-import filter from '../src/filter.js';
+import filter from '../instrumented/filter.js';
 
 
 describe('filter test', function () {

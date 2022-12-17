@@ -4,7 +4,7 @@ import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 //
 const { expect } = require('chai');
-import memoize from '../src/memoize.js';
+import memoize from '../instrumented/memoize.js';
 
 const createObject = () => {
     return { 'a': 1, 'b': 2 };

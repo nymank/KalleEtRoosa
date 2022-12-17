@@ -4,7 +4,7 @@ import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 //
 const { expect } = require('chai');
-import compact from '../src/compact.js';
+import compact from '../instrumented/compact.js';
 
 
 describe('Compact test', function () {

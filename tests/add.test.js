@@ -4,7 +4,7 @@ import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 //
 const { expect } = require('chai');
-import add from '../src/add.js';
+import add from '../instrumented/add.js';
 
 
 describe('Add test', function () {

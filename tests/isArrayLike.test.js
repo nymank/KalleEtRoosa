@@ -4,7 +4,7 @@ import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 //
 const { expect } = require('chai');
-import isArrayLike from '../src/isArrayLike.js';
+import isArrayLike from '../instrumented/isArrayLike.js';
 
 
 describe('isArrayLike test', function () {

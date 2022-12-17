@@ -4,7 +4,7 @@ import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 //
 const { expect } = require('chai');
-import eq from '../src/eq.js';
+import eq from '../instrumented/eq.js';
 
 
 describe('Eq test', function () {

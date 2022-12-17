@@ -3,7 +3,7 @@ const require = createRequire(import.meta.url);
 
 const { expect } = require('chai');
 
-import toNumber from '../src/toNumber.js';
+import toNumber from '../instrumented/toNumber.js';
 
 describe('toNumber test', function () {
     it('should convert string to number', function () {

@@ -6,7 +6,7 @@ const require = createRequire(import.meta.url);
 const { expect } = require('chai');
 const chai = require('chai');
 
-import capitalize from '../src/capitalize.js';
+import capitalize from '../instrumented/capitalize.js';
 
 describe('Capitalize test', function () {
     it('first character should be upper case and the remaining lower case.', function () {

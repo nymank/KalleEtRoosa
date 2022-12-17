@@ -4,7 +4,7 @@ const require = createRequire(import.meta.url);
 const { expect } = require('chai');
 const chai = require('chai');
 
-import toString from '../src/toString.js';
+import toString from '../instrumented/toString.js';
 
 describe('toString test', function () {
     it('should convert integer to string', function () {

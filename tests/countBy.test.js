@@ -4,7 +4,7 @@ const require = createRequire(import.meta.url);
 const { expect } = require('chai');
 const chai = require('chai');
 
-import countBy from '../src/countBy.js';
+import countBy from '../instrumented/countBy.js';
 
 const users = [
     { 'user': 'barney', 'active': true },
