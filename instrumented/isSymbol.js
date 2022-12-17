@@ -1,0 +1,17 @@
+function cov_238ffwokhz(){var path="C:\\git\\KalleEtRoosa\\src\\isSymbol.js";var hash="6bffd6e23009f6ab0bccf4b469c795350f189665";var global=new Function("return this")();var gcv="__coverage__";var coverageData={path:"C:\\git\\KalleEtRoosa\\src\\isSymbol.js",statementMap:{"0":{start:{line:19,column:15},end:{line:19,column:27}},"1":{start:{line:20,column:2},end:{line:20,column:103}}},fnMap:{"0":{name:"isSymbol",decl:{start:{line:18,column:9},end:{line:18,column:17}},loc:{start:{line:18,column:25},end:{line:21,column:1}},line:18}},branchMap:{"0":{loc:{start:{line:20,column:9},end:{line:20,column:103}},type:"binary-expr",locations:[{start:{line:20,column:9},end:{line:20,column:25}},{start:{line:20,column:30},end:{line:20,column:47}},{start:{line:20,column:51},end:{line:20,column:64}},{start:{line:20,column:68},end:{line:20,column:102}}],line:20}},s:{"0":0,"1":0},f:{"0":0},b:{"0":[0,0,0,0]},_coverageSchema:"1a1c01bbd47fc00a2c39e90264f33305004495a9",hash:"6bffd6e23009f6ab0bccf4b469c795350f189665"};var coverage=global[gcv]||(global[gcv]={});if(!coverage[path]||coverage[path].hash!==hash){coverage[path]=coverageData;}var actualCoverage=coverage[path];{// @ts-ignore
+cov_238ffwokhz=function(){return actualCoverage;};}return actualCoverage;}cov_238ffwokhz();import getTag from'./.internal/getTag.js';/**
+ * Checks if `value` is classified as a `Symbol` primitive or object.
+ *
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a symbol, else `false`.
+ * @example
+ *
+ * isSymbol(Symbol.iterator)
+ * // => true
+ *
+ * isSymbol('abc')
+ * // => false
+ */function isSymbol(value){cov_238ffwokhz().f[0]++;const type=(cov_238ffwokhz().s[0]++,typeof value);cov_238ffwokhz().s[1]++;return(cov_238ffwokhz().b[0][0]++,type=='symbol')||(cov_238ffwokhz().b[0][1]++,type==='object')&&(cov_238ffwokhz().b[0][2]++,value!=null)&&(cov_238ffwokhz().b[0][3]++,getTag(value)=='[object Symbol]');}export default isSymbol;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJnZXRUYWciLCJpc1N5bWJvbCIsInZhbHVlIiwidHlwZSJdLCJzb3VyY2VzIjpbImlzU3ltYm9sLmpzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBnZXRUYWcgZnJvbSAnLi8uaW50ZXJuYWwvZ2V0VGFnLmpzJ1xyXG5cclxuLyoqXHJcbiAqIENoZWNrcyBpZiBgdmFsdWVgIGlzIGNsYXNzaWZpZWQgYXMgYSBgU3ltYm9sYCBwcmltaXRpdmUgb3Igb2JqZWN0LlxyXG4gKlxyXG4gKiBAc2luY2UgNC4wLjBcclxuICogQGNhdGVnb3J5IExhbmdcclxuICogQHBhcmFtIHsqfSB2YWx1ZSBUaGUgdmFsdWUgdG8gY2hlY2suXHJcbiAqIEByZXR1cm5zIHtib29sZWFufSBSZXR1cm5zIGB0cnVlYCBpZiBgdmFsdWVgIGlzIGEgc3ltYm9sLCBlbHNlIGBmYWxzZWAuXHJcbiAqIEBleGFtcGxlXHJcbiAqXHJcbiAqIGlzU3ltYm9sKFN5bWJvbC5pdGVyYXRvcilcclxuICogLy8gPT4gdHJ1ZVxyXG4gKlxyXG4gKiBpc1N5bWJvbCgnYWJjJylcclxuICogLy8gPT4gZmFsc2VcclxuICovXHJcbmZ1bmN0aW9uIGlzU3ltYm9sKHZhbHVlKSB7XHJcbiAgY29uc3QgdHlwZSA9IHR5cGVvZiB2YWx1ZVxyXG4gIHJldHVybiB0eXBlID09ICdzeW1ib2wnIHx8ICh0eXBlID09PSAnb2JqZWN0JyAmJiB2YWx1ZSAhPSBudWxsICYmIGdldFRhZyh2YWx1ZSkgPT0gJ1tvYmplY3QgU3ltYm9sXScpXHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IGlzU3ltYm9sXHJcbiJdLCJtYXBwaW5ncyI6IjBvQ0FlWTtBQUFBLDJGQWZaLE1BQU9BLE9BQU0sS0FBTSx1QkFBdUIsQ0FFMUM7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLEdBQ0EsUUFBU0MsU0FBUSxDQUFDQyxLQUFLLENBQUUseUJBQ3ZCLEtBQU1DLEtBQUksMEJBQUcsTUFBT0QsTUFBSywwQkFDekIsTUFBTyw0QkFBQUMsSUFBSSxFQUFJLFFBQVEsR0FBSyw0QkFBQUEsSUFBSSxHQUFLLFFBQVEsK0JBQUlELEtBQUssRUFBSSxJQUFJLCtCQUFJRixNQUFNLENBQUNFLEtBQUssQ0FBQyxFQUFJLGlCQUFpQixDQUFDLENBQ3ZHLENBRUEsY0FBZUQsU0FBUSJ9

@@ -1,0 +1,15 @@
+function cov_180avgtu34(){var path="C:\\git\\KalleEtRoosa\\src\\capitalize.js";var hash="8a7f5ad53c1390624be52e49e43f8f2bb879772d";var global=new Function("return this")();var gcv="__coverage__";var coverageData={path:"C:\\git\\KalleEtRoosa\\src\\capitalize.js",statementMap:{"0":{start:{line:17,column:19},end:{line:17,column:73}},"1":{start:{line:17,column:31},end:{line:17,column:73}}},fnMap:{"0":{name:"(anonymous_0)",decl:{start:{line:17,column:19},end:{line:17,column:20}},loc:{start:{line:17,column:31},end:{line:17,column:73}},line:17}},branchMap:{},s:{"0":0,"1":0},f:{"0":0},b:{},_coverageSchema:"1a1c01bbd47fc00a2c39e90264f33305004495a9",hash:"8a7f5ad53c1390624be52e49e43f8f2bb879772d"};var coverage=global[gcv]||(global[gcv]={});if(!coverage[path]||coverage[path].hash!==hash){coverage[path]=coverageData;}var actualCoverage=coverage[path];{// @ts-ignore
+cov_180avgtu34=function(){return actualCoverage;};}return actualCoverage;}cov_180avgtu34();import upperFirst from'./upperFirst.js';import toString from'./toString.js';/**
+ * Converts the first character of `string` to upper case and the remaining
+ * to lower case.
+ *
+ * @since 3.0.0
+ * @category String
+ * @param {string} [string=''] The string to capitalize.
+ * @returns {string} Returns the capitalized string.
+ * @example
+ *
+ * capitalize('FRED')
+ * // => 'Fred'
+ */cov_180avgtu34().s[0]++;const capitalize=string=>{cov_180avgtu34().f[0]++;cov_180avgtu34().s[1]++;return upperFirst(toString(string).toLowerCase());};export default capitalize;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJ1cHBlckZpcnN0IiwidG9TdHJpbmciLCJjYXBpdGFsaXplIiwic3RyaW5nIiwidG9Mb3dlckNhc2UiXSwic291cmNlcyI6WyJjYXBpdGFsaXplLmpzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB1cHBlckZpcnN0IGZyb20gJy4vdXBwZXJGaXJzdC5qcydcclxuaW1wb3J0IHRvU3RyaW5nIGZyb20gJy4vdG9TdHJpbmcuanMnXHJcblxyXG4vKipcclxuICogQ29udmVydHMgdGhlIGZpcnN0IGNoYXJhY3RlciBvZiBgc3RyaW5nYCB0byB1cHBlciBjYXNlIGFuZCB0aGUgcmVtYWluaW5nXHJcbiAqIHRvIGxvd2VyIGNhc2UuXHJcbiAqXHJcbiAqIEBzaW5jZSAzLjAuMFxyXG4gKiBAY2F0ZWdvcnkgU3RyaW5nXHJcbiAqIEBwYXJhbSB7c3RyaW5nfSBbc3RyaW5nPScnXSBUaGUgc3RyaW5nIHRvIGNhcGl0YWxpemUuXHJcbiAqIEByZXR1cm5zIHtzdHJpbmd9IFJldHVybnMgdGhlIGNhcGl0YWxpemVkIHN0cmluZy5cclxuICogQGV4YW1wbGVcclxuICpcclxuICogY2FwaXRhbGl6ZSgnRlJFRCcpXHJcbiAqIC8vID0+ICdGcmVkJ1xyXG4gKi9cclxuY29uc3QgY2FwaXRhbGl6ZSA9IChzdHJpbmcpID0+IHVwcGVyRmlyc3QodG9TdHJpbmcoc3RyaW5nKS50b0xvd2VyQ2FzZSgpKVxyXG5cclxuXHJcbmV4cG9ydCBkZWZhdWx0IGNhcGl0YWxpemVcclxuIl0sIm1hcHBpbmdzIjoibzFCQWVZO0FBQUEsMkZBZlosTUFBT0EsV0FBVSxLQUFNLGlCQUFpQixDQUN4QyxNQUFPQyxTQUFRLEtBQU0sZUFBZSxDQUVwQztBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxHQVpBLHdCQWFBLEtBQU1DLFdBQVUsQ0FBSUMsTUFBTSxFQUFLLHVEQUFBSCxXQUFVLENBQUNDLFFBQVEsQ0FBQ0UsTUFBTSxDQUFDLENBQUNDLFdBQVcsRUFBRSxDQUFDLENBQUQsQ0FBQyxDQUd6RSxjQUFlRixXQUFVIn0=

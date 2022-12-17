@@ -1,0 +1,9 @@
+function cov_c7q8pillk(){var path="C:\\git\\KalleEtRoosa\\src\\.internal\\asciiSize.js";var hash="942cf7b4382c0a51770e3212b81a0bd3381ee831";var global=new Function("return this")();var gcv="__coverage__";var coverageData={path:"C:\\git\\KalleEtRoosa\\src\\.internal\\asciiSize.js",statementMap:{"0":{start:{line:9,column:2},end:{line:9,column:15}}},fnMap:{"0":{name:"asciiSize",decl:{start:{line:8,column:9},end:{line:8,column:18}},loc:{start:{line:8,column:31},end:{line:10,column:1}},line:8}},branchMap:{},s:{"0":0},f:{"0":0},b:{},_coverageSchema:"1a1c01bbd47fc00a2c39e90264f33305004495a9",hash:"942cf7b4382c0a51770e3212b81a0bd3381ee831"};var coverage=global[gcv]||(global[gcv]={});if(!coverage[path]||coverage[path].hash!==hash){coverage[path]=coverageData;}var actualCoverage=coverage[path];{// @ts-ignore
+cov_c7q8pillk=function(){return actualCoverage;};}return actualCoverage;}cov_c7q8pillk();/**
+ * Gets the size of an ASCII `string`.
+ *
+ * @private
+ * @param {string} string The string inspect.
+ * @returns {number} Returns the string size.
+ */function asciiSize({length}){cov_c7q8pillk().f[0]++;cov_c7q8pillk().s[0]++;return length;}export default asciiSize;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJhc2NpaVNpemUiLCJsZW5ndGgiXSwic291cmNlcyI6WyJhc2NpaVNpemUuanMiXSwic291cmNlc0NvbnRlbnQiOlsiLyoqXHJcbiAqIEdldHMgdGhlIHNpemUgb2YgYW4gQVNDSUkgYHN0cmluZ2AuXHJcbiAqXHJcbiAqIEBwcml2YXRlXHJcbiAqIEBwYXJhbSB7c3RyaW5nfSBzdHJpbmcgVGhlIHN0cmluZyBpbnNwZWN0LlxyXG4gKiBAcmV0dXJucyB7bnVtYmVyfSBSZXR1cm5zIHRoZSBzdHJpbmcgc2l6ZS5cclxuICovXHJcbmZ1bmN0aW9uIGFzY2lpU2l6ZSh7IGxlbmd0aCB9KSB7XHJcbiAgcmV0dXJuIGxlbmd0aFxyXG59XHJcblxyXG5leHBvcnQgZGVmYXVsdCBhc2NpaVNpemVcclxuIl0sIm1hcHBpbmdzIjoiNHhCQWVZO0FBQUEseUZBZlo7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsR0FDQSxRQUFTQSxVQUFTLENBQUMsQ0FBRUMsTUFBTyxDQUFDLENBQUUsK0NBQzdCLE1BQU9BLE9BQU0sQ0FDZixDQUVBLGNBQWVELFVBQVMifQ==

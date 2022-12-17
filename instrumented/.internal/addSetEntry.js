@@ -1,0 +1,11 @@
+function cov_1rp4qahpcx(){var path="C:\\git\\KalleEtRoosa\\src\\.internal\\addSetEntry.js";var hash="2bcf2c12f3cae43ee38ceb0f923546cc1c0205ce";var global=new Function("return this")();var gcv="__coverage__";var coverageData={path:"C:\\git\\KalleEtRoosa\\src\\.internal\\addSetEntry.js",statementMap:{"0":{start:{line:11,column:2},end:{line:11,column:16}},"1":{start:{line:12,column:2},end:{line:12,column:12}}},fnMap:{"0":{name:"addSetEntry",decl:{start:{line:9,column:9},end:{line:9,column:20}},loc:{start:{line:9,column:33},end:{line:13,column:1}},line:9}},branchMap:{},s:{"0":0,"1":0},f:{"0":0},b:{},_coverageSchema:"1a1c01bbd47fc00a2c39e90264f33305004495a9",hash:"2bcf2c12f3cae43ee38ceb0f923546cc1c0205ce"};var coverage=global[gcv]||(global[gcv]={});if(!coverage[path]||coverage[path].hash!==hash){coverage[path]=coverageData;}var actualCoverage=coverage[path];{// @ts-ignore
+cov_1rp4qahpcx=function(){return actualCoverage;};}return actualCoverage;}cov_1rp4qahpcx();/**
+ * Adds `value` to `set`.
+ *
+ * @private
+ * @param {Object} set The set to modify.
+ * @param {*} value The value to add.
+ * @returns {Object} Returns `set`.
+ */function addSetEntry(set,value){cov_1rp4qahpcx().f[0]++;cov_1rp4qahpcx().s[0]++;// Don't return `set.add` because it's not chainable in IE 11.
+set.add(value);cov_1rp4qahpcx().s[1]++;return set;}export default addSetEntry;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJhZGRTZXRFbnRyeSIsInNldCIsInZhbHVlIiwiYWRkIl0sInNvdXJjZXMiOlsiYWRkU2V0RW50cnkuanMiXSwic291cmNlc0NvbnRlbnQiOlsiLyoqXHJcbiAqIEFkZHMgYHZhbHVlYCB0byBgc2V0YC5cclxuICpcclxuICogQHByaXZhdGVcclxuICogQHBhcmFtIHtPYmplY3R9IHNldCBUaGUgc2V0IHRvIG1vZGlmeS5cclxuICogQHBhcmFtIHsqfSB2YWx1ZSBUaGUgdmFsdWUgdG8gYWRkLlxyXG4gKiBAcmV0dXJucyB7T2JqZWN0fSBSZXR1cm5zIGBzZXRgLlxyXG4gKi9cclxuZnVuY3Rpb24gYWRkU2V0RW50cnkoc2V0LCB2YWx1ZSkge1xyXG4gIC8vIERvbid0IHJldHVybiBgc2V0LmFkZGAgYmVjYXVzZSBpdCdzIG5vdCBjaGFpbmFibGUgaW4gSUUgMTEuXHJcbiAgc2V0LmFkZCh2YWx1ZSlcclxuICByZXR1cm4gc2V0XHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IGFkZFNldEVudHJ5XHJcbiJdLCJtYXBwaW5ncyI6ImsyQkFlWTtBQUFBLDJGQWZaO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsR0FDQSxRQUFTQSxZQUFXLENBQUNDLEdBQUcsQ0FBRUMsS0FBSyxDQUFFLGlEQUMvQjtBQUNBRCxHQUFHLENBQUNFLEdBQUcsQ0FBQ0QsS0FBSyxDQUFDLHlCQUNkLE1BQU9ELElBQUcsQ0FDWixDQUVBLGNBQWVELFlBQVcifQ==

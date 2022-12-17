@@ -1,0 +1,17 @@
+function cov_28l3c2csdg(){var path="C:\\git\\KalleEtRoosa\\src\\isBoolean.js";var hash="1fb28aa8dcc2c62e1e9bc12b87fc2c13add48e0a";var global=new Function("return this")();var gcv="__coverage__";var coverageData={path:"C:\\git\\KalleEtRoosa\\src\\isBoolean.js",statementMap:{"0":{start:{line:20,column:2},end:{line:21,column:64}}},fnMap:{"0":{name:"isBoolean",decl:{start:{line:19,column:9},end:{line:19,column:18}},loc:{start:{line:19,column:26},end:{line:22,column:1}},line:19}},branchMap:{"0":{loc:{start:{line:20,column:9},end:{line:21,column:64}},type:"binary-expr",locations:[{start:{line:20,column:9},end:{line:20,column:23}},{start:{line:20,column:27},end:{line:20,column:42}},{start:{line:21,column:5},end:{line:21,column:24}},{start:{line:21,column:28},end:{line:21,column:63}}],line:20}},s:{"0":0},f:{"0":0},b:{"0":[0,0,0,0]},_coverageSchema:"1a1c01bbd47fc00a2c39e90264f33305004495a9",hash:"1fb28aa8dcc2c62e1e9bc12b87fc2c13add48e0a"};var coverage=global[gcv]||(global[gcv]={});if(!coverage[path]||coverage[path].hash!==hash){coverage[path]=coverageData;}var actualCoverage=coverage[path];{// @ts-ignore
+cov_28l3c2csdg=function(){return actualCoverage;};}return actualCoverage;}cov_28l3c2csdg();import getTag from'./.internal/getTag.js';import isObjectLike from'./isObjectLike.js';/**
+ * Checks if `value` is classified as a boolean primitive or object.
+ *
+ * @since 0.1.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a boolean, else `false`.
+ * @example
+ *
+ * isBoolean(false)
+ * // => true
+ *
+ * isBoolean(null)
+ * // => false
+ */function isBoolean(value){cov_28l3c2csdg().f[0]++;cov_28l3c2csdg().s[0]++;return(cov_28l3c2csdg().b[0][0]++,value===true)||(cov_28l3c2csdg().b[0][1]++,value===false)||(cov_28l3c2csdg().b[0][2]++,isObjectLike(value))&&(cov_28l3c2csdg().b[0][3]++,getTag(value)=='[object Boolean]');}export default isBoolean;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJnZXRUYWciLCJpc09iamVjdExpa2UiLCJpc0Jvb2xlYW4iLCJ2YWx1ZSJdLCJzb3VyY2VzIjpbImlzQm9vbGVhbi5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgZ2V0VGFnIGZyb20gJy4vLmludGVybmFsL2dldFRhZy5qcydcclxuaW1wb3J0IGlzT2JqZWN0TGlrZSBmcm9tICcuL2lzT2JqZWN0TGlrZS5qcydcclxuXHJcbi8qKlxyXG4gKiBDaGVja3MgaWYgYHZhbHVlYCBpcyBjbGFzc2lmaWVkIGFzIGEgYm9vbGVhbiBwcmltaXRpdmUgb3Igb2JqZWN0LlxyXG4gKlxyXG4gKiBAc2luY2UgMC4xLjBcclxuICogQGNhdGVnb3J5IExhbmdcclxuICogQHBhcmFtIHsqfSB2YWx1ZSBUaGUgdmFsdWUgdG8gY2hlY2suXHJcbiAqIEByZXR1cm5zIHtib29sZWFufSBSZXR1cm5zIGB0cnVlYCBpZiBgdmFsdWVgIGlzIGEgYm9vbGVhbiwgZWxzZSBgZmFsc2VgLlxyXG4gKiBAZXhhbXBsZVxyXG4gKlxyXG4gKiBpc0Jvb2xlYW4oZmFsc2UpXHJcbiAqIC8vID0+IHRydWVcclxuICpcclxuICogaXNCb29sZWFuKG51bGwpXHJcbiAqIC8vID0+IGZhbHNlXHJcbiAqL1xyXG5mdW5jdGlvbiBpc0Jvb2xlYW4odmFsdWUpIHtcclxuICByZXR1cm4gdmFsdWUgPT09IHRydWUgfHwgdmFsdWUgPT09IGZhbHNlIHx8XHJcbiAgICAoaXNPYmplY3RMaWtlKHZhbHVlKSAmJiBnZXRUYWcodmFsdWUpID09ICdbb2JqZWN0IEJvb2xlYW5dJylcclxufVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgaXNCb29sZWFuXHJcbiJdLCJtYXBwaW5ncyI6IjJrQ0FlWTtBQUFBLDJGQWZaLE1BQU9BLE9BQU0sS0FBTSx1QkFBdUIsQ0FDMUMsTUFBT0MsYUFBWSxLQUFNLG1CQUFtQixDQUU1QztBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsR0FDQSxRQUFTQyxVQUFTLENBQUNDLEtBQUssQ0FBRSxpREFDeEIsTUFBTyw0QkFBQUEsS0FBSyxHQUFLLElBQUksK0JBQUlBLEtBQUssR0FBSyxLQUFLLEdBQ3JDLDRCQUFBRixZQUFZLENBQUNFLEtBQUssQ0FBQywrQkFBSUgsTUFBTSxDQUFDRyxLQUFLLENBQUMsRUFBSSxrQkFBa0IsQ0FBQyxDQUNoRSxDQUVBLGNBQWVELFVBQVMifQ==
