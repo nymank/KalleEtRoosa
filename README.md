@@ -17,4 +17,5 @@ To run all tests, type
 |__docs/ folder contains documentation, like testing plan (from assignment part 1) and test report.  
 |__src/ has the utility library that is tested.  
 
+This doesn't work properly yet:
 [![Coverage Status](https://coveralls.io/repos/github/nymank/KalleEtRoosa/badge.svg)](https://coveralls.io/github/nymank/KalleEtRoosa)
