@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "nyc mocha tests",
+    "testlcov": "nyc --reporter=text-lcov mocha tests",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "author": "",
