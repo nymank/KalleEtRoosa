@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "nyc mocha tests",
-    "testlcov": "nyc --reporter=lcov --reporter=text mocha tests",
-    "coverage": "nyc report --reporter=lcov | coveralls"
+    "testlcov": "nyc --reporter=lcov --reporter=text mocha tests/add.test.js",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "author": "",
   "license": "MIT",
