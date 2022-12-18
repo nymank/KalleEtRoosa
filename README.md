@@ -18,4 +18,4 @@ More detailed instuctions are found in docs/test_report.pdf
 |__docs/ folder contains documentation, like testing plan (from assignment part 1) and test report.
 
 This doesn't work properly yet:
-[![Coverage Status](https://coveralls.io/repos/github/nymank/KalleEtRoosa/badge.svg)](https://coveralls.io/github/nymank/KalleEtRoosa)
+[![Coverage Status](https://coveralls.io/repos/github/nymank/KalleEtRoosa/badge.svg?branch=main)](https://coveralls.io/github/nymank/KalleEtRoosa?branch=main)
