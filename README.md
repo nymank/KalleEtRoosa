@@ -6,9 +6,10 @@ Repository for hosting unit tests in Assignment part 2. Tests are made with Moch
 After cloning repository, install modules with  
     npm install  
 
-To run all tests, type  
+To run all tests and generate command line coverage report, type  
     npm test  
 
+More detailed instuctions are found in docs/test_report.pdf
 
 ## Folder stucture
 |  
