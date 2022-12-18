@@ -1,6 +1,6 @@
 # COMP.SE.200-2022-2023-1 Software Testing 
 ### Group: Kalle & Roosa
-Repository for hosting unit tests in Assignment part 2. Tests are made with Mocha and Chai.  
+Repository for hosting unit tests in Assignment part 2.  
 [![Coverage Status](https://coveralls.io/repos/github/nymank/KalleEtRoosa/badge.svg?branch=main)](https://coveralls.io/github/nymank/KalleEtRoosa?branch=main)
 
 ## Running tests
