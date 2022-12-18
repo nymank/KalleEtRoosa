@@ -16,8 +16,4 @@ Generate local lcov-file:
 
 More detailed instuctions are found in docs/test_report.pdf
 
-## Folder stucture
-|  
-|  
-|__tests/ contains our test suites.  
-|__docs/ folder contains documentation, like testing plan (from assignment part 1) and test report.
+tests/ contains our test suites.  
