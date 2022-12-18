@@ -15,7 +15,7 @@ const users = [
     ]
 
 describe('Count by test', function () {
-    it('should count the corresponding value of each key is the number of times the key was returned', function () {
+    it('should count the instances of the value correctly', function () {
 
         const result = countBy(users, value => value.active);
         expect(result).to.deep.equal({ true: 2, false: 3 })
