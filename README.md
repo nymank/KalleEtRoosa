@@ -15,8 +15,7 @@ More detailed instuctions are found in docs/test_report.pdf
 |  
 |  
 |__tests/ contains our test suites.  
-|__docs/ folder contains documentation, like testing plan (from assignment part 1) and test report.  
-|__src/ has the utility library that is tested.  
+|__docs/ folder contains documentation, like testing plan (from assignment part 1) and test report.
 
 This doesn't work properly yet:
 [![Coverage Status](https://coveralls.io/repos/github/nymank/KalleEtRoosa/badge.svg)](https://coveralls.io/github/nymank/KalleEtRoosa)
