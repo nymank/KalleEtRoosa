@@ -19,7 +19,7 @@ jobs:
     - name: npm install, run tests
       run: |
         npm install
-        npm testlcov
+        npm run testlcov
       continue-on-error: true
 
     - name: Coveralls
