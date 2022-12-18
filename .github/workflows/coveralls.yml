@@ -19,8 +19,8 @@ jobs:
     - name: npm install, run tests
       run: |
         npm install
-        npm run testlcov
-        continue-on-error: true
+        npm test
+      continue-on-error: true
 
     - name: Coveralls
       uses: coverallsapp/github-action@master
