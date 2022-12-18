@@ -1,6 +1,6 @@
 on: ["push", "pull_request"]
 
-name: Test Coveralls
+name: Run tests and report to coveralls
 
 jobs:
 
@@ -16,12 +16,15 @@ jobs:
       with:
         node-version: 14.x
 
-    - name: npm install, run tests
+    - name: Run tests and generate coverage report
       run: |
         npm install
+        npm run instrument
         npm run testlcov
+      continue-on-error: true
 
     - name: Coveralls
       uses: coverallsapp/github-action@master
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
+
